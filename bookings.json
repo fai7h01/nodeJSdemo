@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "flight": "AA123",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "flight": "BA456",
+    "status": "Confirmed"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "flight": "CA789",
+    "status": "Cancelled"
+  },
+  {
+    "name": "Luka",
+    "flight": "AB222",
+    "status": "Pending",
+    "id": 4
+  }
+]
