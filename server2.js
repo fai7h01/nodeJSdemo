@@ -25,7 +25,7 @@ const server = http.createServer(async (req, res) => {
             res.end(JSON.stringify(bookings));  // Send the bookings as a response
         } else {
             res.writeHead(404, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify({ error: 'Method or file is incorrect' }));
+            res.end(JSON.stringify({ error: 'Method or file is incorrect' }));12
         }
     } catch (error) {
         console.error(error);  // Log the error for debugging
